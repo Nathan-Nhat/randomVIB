@@ -1,22 +1,151 @@
-.App {
+.col-inner {
+display: flex;
+align-items: center;
+justify-content: center;
+/*background: linear-gradient(to right, #FDFBFB, #EBEDEE 70%);*/
+}
+
+.text22 {
+  text-transform: uppercase;
+  /*background: linear-gradient(to top, #dec64e 5%, #c4792c 30%, #bd6f2a 51%, #ffe071 88%, #ffffff 100%);*/
+  background: linear-gradient(to top,#f89522 1%, #f89522 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.col_quay_so.box_so1 {
+  /*margin-left: 18%;*/
+}
+.wraper{
+  background:url("https://cdn.iom.vn/uploads/20191115095302/vib-led-bg2.png") no-repeat;
+  background-position: center;
+  /*background-size: contain;*/
+  background-size: 100% 100%;
+}
+.col_quay_so{
+  width: 18%;
+  margin-left: 2% !important;
+  font-size: 180px;
+  height: 269px;
+  border: none;
+  border-radius: 0;
+  background-size: cover;
+  background-image:url("http://tool.iom.vn/public/img/eco-hr3/o-so-k.png");
+}
+.logo{
+  position: relative;
+  left: 0%;
+  top: 0px;
+  width: 100%;
+  /* text-align: center; */
+  float: left;
+  padding-top: 60px;
+}
+
+.logo_thienphuoc{
+  margin-left:1%;
+}
+.logo_conghoa{
+  margin-left: 25%;
+width: 13% !important;
+}
+.logo img{width:13%}
+.logo img.logo_cen{
+  /* float: right; */
+width: 10%;
+/* margin-right: 3%; */
+/* margin-top: 2%; */
+}
+.box_quayso{
+  width: 25%;
+  /*margin: auto;*/
+  /*margin-top: 100px;*/
+  position: relative;
+  /*top: 40px;*/
+}
+h2{
+  text-align: center;
+  font-size: 64px;
+  color: #fcd981;
+  margin-top:10%;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  background: linear-gradient(to bottom, #fbf29b 0%, #e0b32b 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 img{
+  width:36%;
+}
+.logo-san{
+  width: 60%;
+  top: 18%;
+  position: absolute;
+  left: 23%;
+}
+hr.hr-1px {
+  color: transparent;
+  border: 1px solid;
+}
+img.img-ch {
+  float: left;
+  position: relative;
+  top: 50px;
+  left: 5%;
+}
+img.img-cl {
+  float: right;
+  position: relative;
+  top: 50px;
+  right: 5%;
+}
+.logo_left,.logo_right{
+  width: 8%;
+  float: right;
+  margin-right: 5%;
+  margin-top: -40px;
+}
+.logo img {
+  width: 18%;
+  margin-left: 20px;
+}
+.logo_left{
+  width: 8% !important;
+  float:left;
+  margin-left:5% !important;
+  margin-top:-3.5%;
+}
+.logo_right{
+  width:60% !important;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.logo_center{
+  position:absolute;
+  width: 100%;
+  /* top:-4px; */
+  text-align: center;
+}
+.logo_center img{
+  width:8%;
+}
+.col_quay_so1{
+  /*background: url(https://cdn.iom.vn/uploads/20191114172847/o-vib.svg) no-repeat;*/
+  background-position: center;
+  background-size: contain;
+}
+.col-inner{
+background: #fff;
+line-height: 40px;
+font-size: 3rem;
+margin-bottom: 8px;
+margin: 0 auto;
+text-transform: uppercase;
+color : #e0b32b;
+margin-top : 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #09d3ac;
+.full-height{
+  height: 100vh;
 }
+/*.start{display: block;}
+.numm{display: none;}*/

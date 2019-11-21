@@ -1,0 +1,10 @@
+@font-face {
+    font-family: UTMHelvetIns;
+    src: url("http://tool.iom.vn/public/fonts/SOURCESANSPRO-BOLD.OTF");
+  }
+  body{
+    font-family: UTMHelvetIns;
+    margin: auto !important;
+    max-width: 11000px;
+    max-height: 4000px;
+  }
