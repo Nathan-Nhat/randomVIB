@@ -19,14 +19,14 @@ export default class Number extends Component {
         var localStore = JSON.parse(localStorage.getItem('test')) ? JSON.parse(localStorage.getItem('test')) : [];
         if (localStore.length < 28)
         {
-
+            
         }
         else
         {
+            localStorage.removeItem('test');
+            this.props.backToStart();
             if(window.confirm("Full of storage. Please delete storage before continue"))
             {
-                localStorage.removeItem('test');
-                this.props.backToStart();
                 return;
             }
         }
