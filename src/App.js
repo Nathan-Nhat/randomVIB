@@ -2,6 +2,7 @@ import './App.css';
 import Start from './start'
 import Rolling from './rolling'
 import React, { Component } from 'react'
+import KeyboardEventHandler from 'react-keyboard-event-handler';
 
 export default class App extends Component {
     constructor(props)
@@ -37,7 +38,8 @@ export default class App extends Component {
                         </div>
                         <button type="button" class="btn btn-danger clear-btn" onClick = {this.clearHandles}>X</button>
                     </div>
-                </div>   
+                </div>
+                <KeyboardEventHandler handleKeys={['del']} onKeyEvent={this.clearHandles} />
             </div>
         )
     }
