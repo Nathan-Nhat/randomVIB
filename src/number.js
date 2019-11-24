@@ -25,7 +25,7 @@ export default class Number extends Component {
         {
             localStorage.removeItem('test');
             this.props.backToStart();
-            if(window.confirm("Full of storage. Please delete storage before continue"))
+            if(window.confirm("Full of storage. Deleting data in storage..."))
             {
                 return;
             }
