@@ -35,7 +35,7 @@ export default class App extends Component {
                         <div class="box_quayso container align-self-center">          
                             {start === true? <Start setRolling = {this.startRolling}/> : <Rolling backtoStart = {this.backToStart}/>}
                         </div>
-                        <button type="button" class="btn btn-danger clear-btn" onClick = {this.clearHandles}>Clear</button>
+                        <button type="button" class="btn btn-danger clear-btn" onClick = {this.clearHandles}>X</button>
                     </div>
                 </div>   
             </div>
