@@ -1,19 +1,11 @@
+body{
+font-family: 'Source Sans Pro', sans-serif;
+}
 .col-inner {
 display: flex;
 align-items: center;
 justify-content: center;
 /*background: linear-gradient(to right, #FDFBFB, #EBEDEE 70%);*/
-}
-
-.text22 {
-  text-transform: uppercase;
-  /*background: linear-gradient(to top, #dec64e 5%, #c4792c 30%, #bd6f2a 51%, #ffe071 88%, #ffffff 100%);*/
-  background: linear-gradient(to top,#f89522 1%, #f89522 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.col_quay_so.box_so1 {
-  /*margin-left: 18%;*/
 }
 .wraper{
   background:url("https://cdn.iom.vn/uploads/20191115095302/vib-led-bg2.png") no-repeat;
@@ -143,9 +135,29 @@ color : #e0b32b;
 margin-top : 30px;
 }
 
-
+.col-inner .number::after{
+  transform: translateY(-100%);
+}
 .full-height{
   height: 100vh;
 }
+
+.height-odometer{
+  height: 20vh;
+}
 /*.start{display: block;}
 .numm{display: none;}*/
+
+.center_item{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.clear-btn{
+  position: absolute;
+  right : 0px;
+  top:0px;
+  margin-top: 20px;
+  margin-right: 20px;
+}

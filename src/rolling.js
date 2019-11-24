@@ -8,18 +8,12 @@ export default class Rolling extends Component {
     }
     render() {
         return (
-            <div class = "row">
+            <div class = "row center_item">
                 <div class = "col-12">
                     <Image/>
                 </div>
-                <div class = "col_quay_so1 col-4 numm">
-                    <Number/>
-                </div>
-                <div class = "col_quay_so1 col-4 numm">
-                    <Number/>
-                </div>
-                <div class = "col_quay_so1 col-4 numm">
-                    <Number/>
+                <div class = "col_quay_so1 col-8 numm">
+                    <Number backToStart = {this.onClickHandle}/>
                 </div>
                 <div class = "col-12">
                     <button type="button" class="btn btn-primary col-inner" onClick = {this.onClickHandle}>Back</button>

@@ -1,7 +1,6 @@
 import './App.css';
 import Start from './start'
 import Rolling from './rolling'
-
 import React, { Component } from 'react'
 
 export default class App extends Component {
@@ -18,6 +17,15 @@ export default class App extends Component {
     startRolling = () =>{
         this.setState({start : false});
     }
+    clearHandles = () =>{
+        if(window.confirm("Do you want to clear storage?"))
+            {
+                localStorage.removeItem('test');
+                this.setState({
+                    start : true,
+                })
+            }
+    }
     render() {
         const {start} = this.state;
         return (
@@ -27,6 +35,7 @@ export default class App extends Component {
                         <div class="box_quayso container align-self-center">          
                             {start === true? <Start setRolling = {this.startRolling}/> : <Rolling backtoStart = {this.backToStart}/>}
                         </div>
+                        <button type="button" class="btn btn-danger clear-btn" onClick = {this.clearHandles}>Clear</button>
                     </div>
                 </div>   
             </div>
