@@ -15,7 +15,7 @@ export default class Number extends Component {
 
     checkNumber = (param) => param === this.randomNumber;
     componentDidMount(){
-        this.randomNumber = Math.floor(Math.random() * 28) + 1;
+        this.randomNumber = Math.floor(Math.random() * 27) + 1;
         var localStore = JSON.parse(localStorage.getItem('test')) ? JSON.parse(localStorage.getItem('test')) : [];
         if (localStore.length < 28)
         {
@@ -51,7 +51,7 @@ export default class Number extends Component {
                             localStorage.setItem('test', JSON.stringify(localStore));
                         break;
                         }
-                        this.randomNumber = Math.floor(Math.random() * 28) + 1;
+                        this.randomNumber = Math.floor(Math.random() * 27) + 1;
                     }
             }, 5000);
     }
