@@ -17,7 +17,7 @@ export default class Number extends Component {
     componentDidMount(){
         this.randomNumber = Math.floor(Math.random() * 27) + 1;
         var localStore = JSON.parse(localStorage.getItem('test')) ? JSON.parse(localStorage.getItem('test')) : [];
-        if (localStore.length < 28)
+        if (localStore.length < 27)
         {
             
         }
