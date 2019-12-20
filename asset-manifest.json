@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/randomVIB/static/css/main.7117a030.chunk.css",
+    "main.js": "/randomVIB/static/js/main.ef666627.chunk.js",
+    "main.js.map": "/randomVIB/static/js/main.ef666627.chunk.js.map",
+    "runtime-main.js": "/randomVIB/static/js/runtime-main.90eee64d.js",
+    "runtime-main.js.map": "/randomVIB/static/js/runtime-main.90eee64d.js.map",
+    "static/js/2.f4c05791.chunk.js": "/randomVIB/static/js/2.f4c05791.chunk.js",
+    "static/js/2.f4c05791.chunk.js.map": "/randomVIB/static/js/2.f4c05791.chunk.js.map",
+    "index.html": "/randomVIB/index.html",
+    "precache-manifest.9670cbd62a46963db0c2cf87e2f2a921.js": "/randomVIB/precache-manifest.9670cbd62a46963db0c2cf87e2f2a921.js",
+    "service-worker.js": "/randomVIB/service-worker.js",
+    "static/css/main.7117a030.chunk.css.map": "/randomVIB/static/css/main.7117a030.chunk.css.map",
+    "static/media/App.css": "/randomVIB/static/media/anh.963ade47.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90eee64d.js",
+    "static/js/2.f4c05791.chunk.js",
+    "static/css/main.7117a030.chunk.css",
+    "static/js/main.ef666627.chunk.js"
+  ]
+}
